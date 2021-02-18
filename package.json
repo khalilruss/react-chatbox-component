@@ -1,8 +1,8 @@
 {
   "name": "react-chatbox-component",
   "version": "0.0.5",
-  "main": "src/lib/index.js",
-  "module": "src/lib/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "files": [
     "dist"
   ],

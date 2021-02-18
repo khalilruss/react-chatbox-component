@@ -10,7 +10,7 @@ class MessageList extends React.Component {
     let chatContent = (
       <div className='loading-messages-container'>
         <MDSpinner size='100' />
-        <span className='loading-text'>Loading Messages</span>
+        <span className='loading-text'>Connecting</span>
       </div>
     );
 
@@ -22,7 +22,7 @@ class MessageList extends React.Component {
           </div>
 
           <div>
-            <h2> No new message? </h2>
+            <h2> The chatbot is ready </h2>
             <h6 className='empty-chat-sub-title'>
               Send your first message below.
             </h6>
